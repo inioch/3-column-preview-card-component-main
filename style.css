@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* 
+font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Lexend Deca', sans-serif; */
+
+:root {
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+
+    /* paragraphs */
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    /* (background, headings, buttons) */
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.titleFont {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.orangeBg {
+    background-color: var(--Brightorange);
+}
+
+.cyanBg {
+    background-color: var(--Darkcyan);
+}
+
+.darkCyanBg {
+    background-color: var(--Verydarkcyan);
+}
+
+.headColor {
+    color: var(--Verylightgray);
+}
+
+.textColor {
+    color: var(--Transparentwhite);
+}
+
+.orangeColor {
+    color: var(--Brightorange);
+}
+
+.darkCyanColor {
+    color: var(--Darkcyan);
+}
+
+.veryDarkCyanColor {
+    color: var(--Verydarkcyan);
+}
+
+.img {
+    width: 75px;
+}
+
+.activeButton:hover {
+    border: 1px white solid;
+    background-color: var(--Brightorange);
+    color: var(--Verylightgray);
+}
+
+.activeButton2:hover {
+    border: 1px white solid;
+    background-color: var(--Darkcyan);
+    color: var(--Verylightgray);
+}
+
+.activeButton3:hover {
+    border: 1px white solid;
+    background-color: var(--Verydarkcyan);
+    color: var(--Verylightgray);
+}
+
+.br1 {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.br2 {
+    border-radius: 0 1rem 1rem 0;
+}
